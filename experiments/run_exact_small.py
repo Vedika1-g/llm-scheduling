@@ -2,7 +2,7 @@
 import csv,json,sys,time,statistics
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/"src"));sys.path.insert(0,str(ROOT/"experiments"))
-from run_experiments import make_workload
+from run_synthetic_experiments import make_workload
 from exact_solver import solve_exact
 from scipy_ilp import solve_workload
 from baselines import schedule_list

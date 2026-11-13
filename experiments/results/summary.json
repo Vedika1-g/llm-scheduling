@@ -8,7 +8,7 @@
     "p95_flow": 13,
     "memory_utilization": 0.755149144330254,
     "makespan": 13,
-    "runtime_s": 0.0004545700503513217,
+    "runtime_s": 0.0003338200018333737,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -21,7 +21,7 @@
     "p95_flow": 14.3,
     "memory_utilization": 0.6821238319081011,
     "makespan": 14.3,
-    "runtime_s": 0.00032349000684916973,
+    "runtime_s": 0.0002447399994707666,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -34,7 +34,7 @@
     "p95_flow": 14.5,
     "memory_utilization": 0.6820422564122789,
     "makespan": 14.5,
-    "runtime_s": 0.00029705001506954434,
+    "runtime_s": 0.00023366000095847994,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -47,7 +47,7 @@
     "p95_flow": 14.5,
     "memory_utilization": 0.6820422564122789,
     "makespan": 14.5,
-    "runtime_s": 0.0006444900063797832,
+    "runtime_s": 0.0003200000006472692,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -60,7 +60,7 @@
     "p95_flow": 13.7,
     "memory_utilization": 0.7165695078247876,
     "makespan": 13.7,
-    "runtime_s": 0.004309890000149608,
+    "runtime_s": 0.002289519999612821,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -73,7 +73,7 @@
     "p95_flow": 12.5,
     "memory_utilization": 0.7599431097084003,
     "makespan": 12.5,
-    "runtime_s": 0.0011377400020137428,
+    "runtime_s": 0.0010274499989463947,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -86,7 +86,7 @@
     "p95_flow": 13.5,
     "memory_utilization": 0.6987208304233015,
     "makespan": 13.5,
-    "runtime_s": 0.0008971999632194638,
+    "runtime_s": 0.0016568499988352415,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -99,7 +99,7 @@
     "p95_flow": 14.1,
     "memory_utilization": 0.6739283721698706,
     "makespan": 14.1,
-    "runtime_s": 0.0008176300674676895,
+    "runtime_s": 0.0016596599998592865,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -112,7 +112,7 @@
     "p95_flow": 14.1,
     "memory_utilization": 0.6739283721698706,
     "makespan": 14.1,
-    "runtime_s": 0.0012581900227814913,
+    "runtime_s": 0.0013166800010367297,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -125,7 +125,7 @@
     "p95_flow": 13.4,
     "memory_utilization": 0.7051898024013235,
     "makespan": 13.4,
-    "runtime_s": 0.014670319994911552,
+    "runtime_s": 0.017695920000551268,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -138,7 +138,7 @@
     "p95_flow": 10.7,
     "memory_utilization": 0.7786514540422145,
     "makespan": 11.8,
-    "runtime_s": 0.002661449951119721,
+    "runtime_s": 0.012663189999148016,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -151,7 +151,7 @@
     "p95_flow": 11.3,
     "memory_utilization": 0.7048936692260237,
     "makespan": 13.1,
-    "runtime_s": 0.002282020007260144,
+    "runtime_s": 0.0034690599990426564,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -164,7 +164,7 @@
     "p95_flow": 10.9,
     "memory_utilization": 0.702626341983955,
     "makespan": 13.2,
-    "runtime_s": 0.002359160012565553,
+    "runtime_s": 0.004034189998492366,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -177,7 +177,7 @@
     "p95_flow": 10.9,
     "memory_utilization": 0.702626341983955,
     "makespan": 13.2,
-    "runtime_s": 0.003690890013240278,
+    "runtime_s": 0.004323299999668961,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -190,7 +190,7 @@
     "p95_flow": 10.8,
     "memory_utilization": 0.7148355625138085,
     "makespan": 13,
-    "runtime_s": 0.07357576002832503,
+    "runtime_s": 0.12023218000031193,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -203,7 +203,7 @@
     "p95_flow": 10.7,
     "memory_utilization": 0.6493465000090413,
     "makespan": 15.4,
-    "runtime_s": 0.012666590022854507,
+    "runtime_s": 0.015575000000535511,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -216,7 +216,7 @@
     "p95_flow": 11.7,
     "memory_utilization": 0.6219462581467343,
     "makespan": 16.2,
-    "runtime_s": 0.013169579999521374,
+    "runtime_s": 0.014976790000946493,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -229,7 +229,7 @@
     "p95_flow": 11.4,
     "memory_utilization": 0.6255786441384039,
     "makespan": 16.2,
-    "runtime_s": 0.011273130029439925,
+    "runtime_s": 0.013834150000184309,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -242,7 +242,7 @@
     "p95_flow": 11.4,
     "memory_utilization": 0.6255786441384039,
     "makespan": 16.2,
-    "runtime_s": 0.019646409992128612,
+    "runtime_s": 0.023880050001025666,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -255,7 +255,7 @@
     "p95_flow": 11.5,
     "memory_utilization": 0.630376770753391,
     "makespan": 16.1,
-    "runtime_s": 0.7791405300376937,
+    "runtime_s": 1.0507244500004163,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -268,7 +268,7 @@
     "p95_flow": 9.8,
     "memory_utilization": 0.3903572692947399,
     "makespan": 26.7,
-    "runtime_s": 0.0008849199628457427,
+    "runtime_s": 0.0014988700007961598,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -281,7 +281,7 @@
     "p95_flow": 14.8,
     "memory_utilization": 0.38354956203725754,
     "makespan": 27.1,
-    "runtime_s": 0.0011129199992865324,
+    "runtime_s": 0.0015029000001959502,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -294,7 +294,7 @@
     "p95_flow": 14.6,
     "memory_utilization": 0.3797635538068049,
     "makespan": 27.3,
-    "runtime_s": 0.0013063200050964952,
+    "runtime_s": 0.0015332199989643413,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -307,7 +307,7 @@
     "p95_flow": 14.6,
     "memory_utilization": 0.3797635538068049,
     "makespan": 27.3,
-    "runtime_s": 0.0013314199866726994,
+    "runtime_s": 0.0017724199999065604,
     "feasible_runs": 10,
     "runs": 10
   },
@@ -320,7 +320,7 @@
     "p95_flow": 11.8,
     "memory_utilization": 0.3903572692947399,
     "makespan": 26.7,
-    "runtime_s": 0.013826200016774237,
+    "runtime_s": 0.02436137999975472,
     "feasible_runs": 10,
     "runs": 10
   }

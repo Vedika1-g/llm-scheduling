@@ -35,7 +35,7 @@ python tests/test_checker.py
 
 5. Run the seeded synthetic comparison (FCFS, SDF, MAGLS, E-MAGLS, portfolio + local search):
 
-python experiments/run_experiments.py
+python experiments/run_synthetic_experiments.py
 
 python experiments/run_exact_small.py
 
@@ -45,6 +45,10 @@ This writes per-instance workloads and metrics to `experiments/results/`, includ
 offline cases with 8, 16, 32, and 64 requests and a small nonzero-arrival, finite-batch
 set. The exact-small script verifies 10 six-request MILP optima against exhaustive
 search. Every returned schedule is independently checked by `src/simulator.py`.
+
+The team's existing sample-schedule evaluator remains available as
+`python experiments/run_experiments.py`; it evaluates the four example schedules in
+`experiments/` and writes `experiments/results.csv`.
 
 6. Solve a small workload with the time-indexed MILP (requires SciPy):
 
