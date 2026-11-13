@@ -11,10 +11,10 @@ Schedule LLM inference requests on a GPU to minimize total flow time, subject to
 | Member | Role | Files |
 |--------|------|-------|
 | Vedika | Simulator and checker | src/simulator.py, tests/test_checker.py |
-| Sonali | ILP/MILP formulation | src/ilp_model.py, docs/model.md |
+| Sonali | ILP/MILP formulation | src/scipy_ilp.py, docs/model.md |
 | Abhishri | Baselines and proposed algorithm | src/baselines.py, src/proposed.py |
 | Yasashwitha | Experiments and plots | experiments/ |
-| Manya | Literature and paper | paper/, docs/literature_matrix.csv |
+| Manya | Literature, hardness, and paper | paper/, docs/hardness.md |
 
 ## Setup
 
@@ -32,6 +32,38 @@ python src/simulator.py
 4. Run all unit tests:
 
 python tests/test_checker.py
+
+5. Run the seeded synthetic comparison (FCFS, SDF, MAGLS, E-MAGLS, portfolio + local search):
+
+python experiments/run_experiments.py
+
+python experiments/run_exact_small.py
+
+python experiments/run_ilp_scaling.py
+
+This writes per-instance workloads and metrics to `experiments/results/`, including
+offline cases with 8, 16, 32, and 64 requests and a small nonzero-arrival, finite-batch
+set. The exact-small script verifies 10 six-request MILP optima against exhaustive
+search. Every returned schedule is independently checked by `src/simulator.py`.
+
+6. Solve a small workload with the time-indexed MILP (requires SciPy):
+
+python -m pip install scipy
+python src/scipy_ilp.py --workload data/sample_workload.json --output experiments/ilp_schedule.json
+
+7. Rebuild the paper PDF (requires ReportLab; the bundled Codex Python runtime was used
+for the delivered build):
+
+python -m pip install reportlab
+python paper/build_manuscript.py
+
+The sparse time-indexed MILP uses SciPy's HiGHS-backed `milp` interface and checks each
+returned schedule with the independent simulator. `experiments/run_exact_small.py` also
+compares solver-proven MILP optima with exhaustive search on 10 tiny instances.
+
+The result is written to `output/pdf/llm_inference_request_scheduling.pdf`. The paper
+build reads the generated `experiments/results/summary.csv`, so rerun the experiments
+after changing algorithms or workloads.
 
 ## Workload Format (JSON)
 

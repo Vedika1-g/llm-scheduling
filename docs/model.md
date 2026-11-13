@@ -220,9 +220,7 @@ If an individual request cannot fit in memory even when running alone, or B = 0,
 
 ## 9. Solver and Implementation
 
-The model is implemented in Python using PuLP.
-
-The optimization backend is HiGHS.
+The current model is implemented in `src/scipy_ilp.py` using SciPy's sparse `optimize.milp` interface and its HiGHS backend. The earlier `src/ilp_model.py` draft is not the entry point used for the reported experiments.
 
 The implementation performs the following steps:
 
@@ -244,7 +242,7 @@ An Optimal solver status indicates that an optimal solution was found and proven
 
 ## 10. Validation and Experiments
 
-The ILP implementation has been tested using:
+The current sparse time-indexed MILP implementation has been evaluated using:
 
 | Experiment | Configuration | Expected behavior |
 |---|---|---|
@@ -254,6 +252,8 @@ The ILP implementation has been tested using:
 | Arrival test | M = 100, B = null | Respect non-zero arrival time |
 
 The generated schedules are checked independently using the existing simulator.
+
+Reproduce the reported solver experiments from the repository root with `python experiments/run_exact_small.py` (10 six-request MILP optima cross-checked against exhaustive search) and `python experiments/run_ilp_scaling.py` (five seeded cases each at n=30, 40, and 50 with a 15-second solver limit). Install the MILP dependency with `python -m pip install scipy`.
 
 The existing checker test suite also covers:
 

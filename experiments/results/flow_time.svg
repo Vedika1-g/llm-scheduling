@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500">
+<rect width="100%" height="100%" fill="white"/>
+<path d="M 85 35.0 H 865" stroke="#ddd"/><text x="77" y="39.0" text-anchor="end" font-size="12">368</text>
+<path d="M 85 115.0 H 865" stroke="#ddd"/><text x="77" y="119.0" text-anchor="end" font-size="12">294</text>
+<path d="M 85 195.0 H 865" stroke="#ddd"/><text x="77" y="199.0" text-anchor="end" font-size="12">221</text>
+<path d="M 85 275.0 H 865" stroke="#ddd"/><text x="77" y="279.0" text-anchor="end" font-size="12">147</text>
+<path d="M 85 355.0 H 865" stroke="#ddd"/><text x="77" y="359.0" text-anchor="end" font-size="12">74</text>
+<path d="M 85 435.0 H 865" stroke="#ddd"/><text x="77" y="439.0" text-anchor="end" font-size="12">0</text>
+<path d="M 85 35 V 435 H 865" stroke="#222" fill="none"/>
+<polyline fill="none" stroke="#6b7280" stroke-width="3" points="85.0,379.4 345.0,343.4 605.0,251.1 865.0,71.4"/>
+<circle cx="85.0" cy="379.4" r="4" fill="#6b7280"/>
+<circle cx="345.0" cy="343.4" r="4" fill="#6b7280"/>
+<circle cx="605.0" cy="251.1" r="4" fill="#6b7280"/>
+<circle cx="865.0" cy="71.4" r="4" fill="#6b7280"/>
+<line x1="115" y1="35" x2="137" y2="35" stroke="#6b7280" stroke-width="3"/><text x="143" y="39" font-size="12">FCFS</text>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="85.0,385.0 345.0,354.0 605.0,278.7 865.0,120.4"/>
+<circle cx="85.0" cy="385.0" r="4" fill="#2563eb"/>
+<circle cx="345.0" cy="354.0" r="4" fill="#2563eb"/>
+<circle cx="605.0" cy="278.7" r="4" fill="#2563eb"/>
+<circle cx="865.0" cy="120.4" r="4" fill="#2563eb"/>
+<line x1="275" y1="58" x2="297" y2="58" stroke="#2563eb" stroke-width="3"/><text x="303" y="62" font-size="12">SDF</text>
+<polyline fill="none" stroke="#16a34a" stroke-width="3" points="85.0,387.4 345.0,359.6 605.0,289.8 865.0,145.5"/>
+<circle cx="85.0" cy="387.4" r="4" fill="#16a34a"/>
+<circle cx="345.0" cy="359.6" r="4" fill="#16a34a"/>
+<circle cx="605.0" cy="289.8" r="4" fill="#16a34a"/>
+<circle cx="865.0" cy="145.5" r="4" fill="#16a34a"/>
+<line x1="435" y1="81" x2="457" y2="81" stroke="#16a34a" stroke-width="3"/><text x="463" y="85" font-size="12">MAGLS</text>
+<polyline fill="none" stroke="#9333ea" stroke-width="3" points="85.0,387.4 345.0,359.6 605.0,289.8 865.0,145.5"/>
+<circle cx="85.0" cy="387.4" r="4" fill="#9333ea"/>
+<circle cx="345.0" cy="359.6" r="4" fill="#9333ea"/>
+<circle cx="605.0" cy="289.8" r="4" fill="#9333ea"/>
+<circle cx="865.0" cy="145.5" r="4" fill="#9333ea"/>
+<line x1="595" y1="104" x2="617" y2="104" stroke="#9333ea" stroke-width="3"/><text x="623" y="108" font-size="12">E-MAGLS</text>
+<polyline fill="none" stroke="#dc2626" stroke-width="3" points="85.0,388.1 345.0,360.1 605.0,291.0 865.0,146.5"/>
+<circle cx="85.0" cy="388.1" r="4" fill="#dc2626"/>
+<circle cx="345.0" cy="360.1" r="4" fill="#dc2626"/>
+<circle cx="605.0" cy="291.0" r="4" fill="#dc2626"/>
+<circle cx="865.0" cy="146.5" r="4" fill="#dc2626"/>
+<line x1="755" y1="127" x2="777" y2="127" stroke="#dc2626" stroke-width="3"/><text x="783" y="131" font-size="12">Portfolio+LS</text>
+<text x="85.0" y="459" text-anchor="middle" font-size="13">8</text>
+<text x="345.0" y="459" text-anchor="middle" font-size="13">16</text>
+<text x="605.0" y="459" text-anchor="middle" font-size="13">32</text>
+<text x="865.0" y="459" text-anchor="middle" font-size="13">64</text>
+<text x="475.0" y="486" text-anchor="middle" font-size="14">Number of requests</text>
+<text transform="translate(20 235.0) rotate(-90)" text-anchor="middle" font-size="14">Mean total flow time (iterations)</text>
+</svg>
